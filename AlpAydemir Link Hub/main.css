@@ -4,7 +4,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   text-align: center;
-  border-color: greenyellow;
+  border-color: #adff2f;
   font-family: 'Poppins', sans-serif;
 }
 
@@ -22,27 +22,31 @@ i {
 
 .container {
     text-align: center;
+    border-radius: 80px;
   width: 400px;
   min-height: 180px;
-  background-color: #333;
+  background-color: rgb(45, 44, 75);
   color: #fff;
 }
 
 .header {
-    text-align: center;
+    text-align: right;
   display: flex;
   justify-content: flex-start;
   text-align: justify;
   align-items:center;
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid rgb(255, 255, 255);
+ 
+  padding-left: 105px;
+  
 }
 
 .header img {
   width: 70px;
   margin: 0 10px;
-  border-radius: 50%;
+  border-radius: 40%;
   padding-top: 10px;
-  margin-left: 20px;
+  margin-left: -20px;
   margin-block-end: 10px;
 
 
